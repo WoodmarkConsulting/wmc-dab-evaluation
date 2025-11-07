@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# do not commit huge datasets
+/data/*.json
+# commit samples (10 lines) of datasets
+!/data/*_sample.json
